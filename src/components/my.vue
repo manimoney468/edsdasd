@@ -33,16 +33,24 @@
    <button @click="showPopup = !showPopup" >Toggle Popup</button>
    
   </div>
+  <div>
+    <h2>---------------------------------------</h2>
+    <h2>Slot Making the Test----------</h2>
+    <SlotParent></SlotParent>
+    <h2>-----------------------------------------</h2>
+  </div> 
 </template>
 
 <script>
 // import {loudness} from 'loudness';
 import mychild from "./mychild.vue";
+import SlotParent from "./SlotParent.vue";
 import mychildpopup from "./mychildpopup.vue";
 export default {
   components: {
     mychild,
-    mychildpopup
+    mychildpopup,
+    SlotParent
   },
 
   

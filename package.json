@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "husky": "^9.1.7",
     "loudness": "^0.4.2",
     "vue": "^3.5.12",
     "vuex": "^4.0.2"
