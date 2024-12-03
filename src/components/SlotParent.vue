@@ -11,6 +11,9 @@
           <h1>Hello, {{ slotProps.nam }}! Content slot is being used!</h1>
         </template>
    
+
+
+        
        
         <template v-slot:footer="slotProps" >
           <h1>Goodbye, {{ slotProps.nam }}! Footer slot is being used!</h1>
